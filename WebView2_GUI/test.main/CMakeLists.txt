@@ -1,0 +1,3 @@
+add_executable(WebView2_GUI_tests "test.main.cpp")
+target_link_libraries(WebView2_GUI_tests PRIVATE Atliac_WebView2_GUI)
+minitest_discover_tests(WebView2_GUI_tests)
